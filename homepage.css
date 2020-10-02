@@ -1,0 +1,31 @@
+
+.navbar-brand
+{
+    font-size: 2rem;
+}
+
+.carousel-caption
+{
+    font-family: cursive;
+}
+
+.carousel-inner > .carousel-item > img
+{
+    height: 100vh;
+}
+
+.btn-color
+{
+    background-color:black;
+    color: white;
+}
+
+.btn-color:hover
+{
+    background-color: violet;
+}
+
+.to-left
+{
+    left: 25%;
+}
