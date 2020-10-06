@@ -16,16 +16,39 @@
 
 .btn-color
 {
-    background-color:black;
+    background-color: rosybrown;
     color: white;
 }
 
 .btn-color:hover
 {
-    background-color: violet;
+    background-color: burlywood;
 }
 
 .to-left
 {
     left: 25%;
+}
+
+#product
+{
+    background-color: #d4d4d4;
+}
+
+.prod
+{
+    border-radius:30px;
+    margin:1.33%;
+    width: 30%;
+}
+
+div h2
+{
+    color: royalblue;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+    border-top: 3px solid rgb(226, 230, 224);
+    text-decoration: underline;
 }
