@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(100,182,189);
+    background: radial-gradient(circle, rgba(100,182,189,1) 0%, rgba(58,92,147,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 40vw;
+    height: 70%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    padding: 50px 30px;
+    transition: transform 1.2s ease-in-out;
+}
+
+input, button{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+h2 {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+label {
+    display: block;
+    width: 45%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+label span {
+    font-weight: 600;
+    font-size: 18px;
+    color: #505f75;
+    text-transform: uppercase;
+}
+
+input {
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-bottom: 2.5px solid #b42d31;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    width:  60%;
+    height: 50px;
+    border-radius: 10px;
+    background:  rgba(100,182,189,1);
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.forgot a {
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    font-weight: 600;
+    color: #0c0101;
+    cursor: pointer;
+}
+
+.social {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social ul{
+    list-style: none;
+}
+
+.social ul li {
+    display: inline-block;
+    margin: 30px 30px;
+    font-size: 60px;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00acee;
+}
+
+.social img{
+    display: inline-block;
+    margin-top: -10px;
+    margin-left:  -10px;
+    width: 60px;
+    height: 60px;
+}
