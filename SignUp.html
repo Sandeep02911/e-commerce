@@ -10,34 +10,59 @@
 </head>
 <body>
     <div class="container">
-        <div class="form">
-            <form action="">
-                <h2>Sign In</h2>
-                <label>
-                    <span>Email Address</span>
-                    <input type="email" name="email">
-                </label></br>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h2>Sign in</h2>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forgot password?</a>
+                <button>Sign in</button>
 
-                <label>
-                    <span>Password</span>
-                    <input type="password" name="password">
-                </label></br>
+                <span>or login using</span>
 
-                <button class="btn btn-primary sign-in-btn" type="button">Sign In</button></br>
-
-                <div class="forgot">
-                    <a href="#">Forgot password ?</a>
-                </div>
-
-                <div class="social">
-                    <ul>
-                        <li><i class="fab fa-facebook"></i></li>
-                        <li><i class="fab fa-twitter"></i></li>
-                        <li><img src="./Images/google.png" alt="google"></li>
-                    </ul>
+                <div class="social-media-container">
+                    <a href="#" class="social"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google"></i></a>
                 </div>
             </form>
         </div>
+
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h2>Create Account</h2>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="number" placeholder="Mobile Number">
+                <input type="password" placeholder="Password">
+                <button>Sign up</button>
+
+                <span>or sign up using</span>
+
+                <div class="social-media-container">
+                    <a href="#" class="social"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google"></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="side-container">
+            <div class="overlay">
+                <div class="side-panel left-panel">
+                    <h1>Already a member?</h1>
+                    <p>We have new buyers waiting for you</p>
+                    <button class="side-btn" id="signIn">Sign in</button>
+                </div>
+                <div class="side-panel right-panel">
+                    <h1>New here?</h1>
+                    <p>Start selling your products to a large community of retailers</p>
+                    <button class="side-btn" id="signUp">Sign up</button>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <script src="./signup_script.js"></script>
 </body>
 </html>
