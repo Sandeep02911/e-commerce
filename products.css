@@ -1,0 +1,72 @@
+.products-list > h1{
+    text-align: center;
+}
+
+.products-list
+{
+    background-color: #dfe6e9;
+    padding: 3em;
+}
+
+.products-list .card
+{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0px 15px 10px rgb(134, 152, 160);
+    float: left;
+    margin: 1.66%;
+}
+
+.card .title
+{
+    font-size: 2em;
+
+}
+
+
+.card .image
+{
+    height: 100%;
+    width: 100%;
+}
+
+.card img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card .text
+{
+    text-align: center;
+    padding: 0.5em;
+}
+
+.buy-button
+{
+    color:#4b4b4b;
+    background-color: #ff9f1a;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px #fdcb6e;
+}
+
+.buy-button:hover
+{
+    color: black;
+    box-shadow: 7px 7px 4px #fdcb6e;
+}
+
+.products-container
+{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px
+}
