@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+
+.header{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7)), url("https://i.pinimg.com/originals/63/d4/9b/63d49b62700690764e08da6aff892a57.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.main{
+    width: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .btn{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.main .btn:hover{
+    background-color: black;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+@media (max-width: 768px){
+    .main{
+        width: 70vw;
+        padding: 10vw;
+    }
+}
