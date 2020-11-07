@@ -51,8 +51,7 @@ body{
 
 .contact-form i.fa:hover{
     color: #fff;
-    border: #fff;
-    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);;
 }
 
 .contact-form{

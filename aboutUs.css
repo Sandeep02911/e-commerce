@@ -7,7 +7,8 @@ body{
 .header{
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7)), url("https://i.pinimg.com/originals/63/d4/9b/63d49b62700690764e08da6aff892a57.jpg");
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,0.6530987394957983) 47%, rgba(109,39,163,0.6026785714285714) 100%);
     background-size: cover;
     background-position: center;
     padding-top: 20vh;
@@ -32,6 +33,23 @@ body{
     font-size: large;
     font-weight: bold;
     border-radius: 30px;
+}
+
+#founders{
+    padding-top: 20px;
+    border-top: 1px solid white;
+    font-size: 4vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+.main strong{
+    font-family: 'Source Serif Pro', serif;
 }
 
 .main .btn:hover{

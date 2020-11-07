@@ -22,7 +22,7 @@
 
 .card .title
 {
-    font-size: 2em;
+    font-size: 2vw;
 
 }
 
@@ -70,3 +70,35 @@
     column-gap: 20px;
     row-gap: 30px
 }
+
+
+@media (max-width: 1200px){
+
+    .products-container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px
+    }
+}
+
+@media (max-width: 900px){
+
+    .products-container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    row-gap: 30px
+    }
+
+    .products-list{
+        font-size: 3vw;
+    }
+
+    .card .title{
+        font-size: 4vh;
+    }
+}
+

@@ -92,3 +92,27 @@ footer
     font-weight: bold;
     font-family:sans-serif;
 }
+
+@media (max-width: 1024px){
+
+    .prod{
+    padding: 5px;
+    border-radius:0 30px 0 30px;
+    margin:1.33%;
+    width: 45%;
+    box-shadow: 5px 5px 3px black,10px 10px 10px grey;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .prod{
+    padding: 5px;
+    border-radius:0 30px 0 30px;
+    margin:3% 10%;
+    width: 80%;
+    box-shadow: 5px 5px 3px black,10px 10px 10px grey;
+    }
+
+}
